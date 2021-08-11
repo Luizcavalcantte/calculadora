@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="titulo">Calculadora</h1>
+      <h2 id="tela"></h2>
+      <div class="btns">
+        <button onclick="addNum('7')" class="btn n7">7</button>
+        <button onclick="addNum('8')" class="btn n8">8</button>
+        <button onclick="addNum('9')" class="btn n9">9</button>
+        <button onclick="addNum('4')" class="btn n4">4</button>
+        <button onclick="addNum('5')" class="btn n5">5</button>
+        <button onclick="addNum('6')" class="btn n6">6</button>
+        <button onclick="addNum('1')" class="btn n1">1</button>
+        <button onclick="addNum('2')" class="btn n2">2</button>
+        <button onclick="addNum('3')" class="btn n3">3</button>
+        <button onclick="addNum('0')" class="btn nzero">0</button>
+        <button onclick="addNum('.')" class="btn nponto">,</button>
+        <button onclick="limparTela()" class="btn nc">C</button>
+        <button onclick="addNum('/')" class="btn ndivi">/</button>
+        <button onclick="addNum('*')" class="btn nx">X</button>
+        <button onclick="addNum('-')" class="btn nmenos">-</button>
+        <button onclick="addNum('+')" class="btn nmais">+</button>
+        <button onclick="resultado()" class="btn nigual">=</button>
+        <button onclick="apagar()" class="btn napagar">&lt</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
